@@ -31,7 +31,7 @@ body.dark .navbar {
 }
 
 #themeToggle {
-    background: #6366f1;
+    background: #1A9538;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -44,7 +44,7 @@ body.dark .navbar {
 .hero {
     text-align: center;
     padding: 4rem 2rem;
-    background: linear-gradient(135deg, #667eea 0%, #008106 100%);
+    background: linear-gradient(135deg, #008106 0%, #667eea 100%);
     color: white;
 }
 
@@ -55,7 +55,7 @@ body.dark .navbar {
 
 /* Buttons */
 button {
-    background: #10b981;
+    background: #1A9538;
     color: white;
     border: none;
     padding: 1rem 2rem;
@@ -78,7 +78,7 @@ button {
 }
 
 button:hover {
-    background: #059669;
+    background: #1A9538;
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(16, 185, 129, 0.3);
 }
@@ -126,4 +126,15 @@ body.dark .card {
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+    max-width: 40%;
+    height:auto
+}
+
+@media only screen and (min-width: 450px) {
+    #logo {
+        max-width:10%
+    }
 }
