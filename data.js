@@ -60,7 +60,7 @@ export const rezDrivers = {
     tatu: {
         name: "Tatu", numberPlate: "25SOM", streets: {
             luni: ["arad", "paris", "deva", "caramidariei", "tractorului", "granitului", "mozaicului", "varului", "cuprului", "t demetrescu", "traian demetrescu", "magheranului",
-                "palinis", "margaretelor", "i p reteganu", "ion pop reteganu", "narciselor", "infratirii", "campului", "piata cluj", "preot baca", "cisnadioara", "cinei",
+                "palinis", "margaretelor", "i p reteganu", "ion pop reteganu", "narciselor", "infratirii", "campului", "piata cluj", "preot bacca", "cisnadioara", "cinei",
                 "brazilor", "timotei cipariu", "prejbei", "badea cartan"],
             marti: ["democratiei", "honterus", "lunga", "general balan", "i l caragiale", "ion luca caragiale", "viorelelor", "carpatilor", "sperantei", "eschile", "pandurilor",
                 "crizantemelor", "florilor", "lacramioarelor", "dulgherilor", "tiglari", "lutului", "simion barnutiu", "cuptorului", "ulmului", "lacul lui binder", "zidarilor"],
@@ -117,7 +117,7 @@ export const bioDrivers = {
             luni:["andrei muresanu","cernei","vasile milea","nicolae iorga","mihai viteazul","porumbacului","luptei","aleea genistilor",
                 "aleea artileristilor","aleea infanteristilor","rahovei","aleea rosiorilor","ostirii","plugarilor","i b deleanu",
                 "ioan budai deleanu","p span","petru span","paltinului","liliacului","garibaldi","giuseppe garibaldi",
-                "samuel micu klein","moldoveanu","fochistilor","carbunelui","caltun","ceferistilor","preot baca","islazului",
+                "samuel micu klein","moldoveanu","fochistilor","carbunelui","caltun","ceferistilor","preot bacca","islazului",
                 "cisnadioara","colinei","brazilor","timotei cipariu","prejbei","badea cartan","aciliu","sacel"],
             marti:["vasile aaron","soimului","dragos voda","bungardului","zamfirescu","pacii","negoi","bucegi","eftimie murgu",
                 "victor hugo","james watt","locomotivei","stefan cel mare","triajului","semaforului","electricienilor","oncesti",
@@ -233,7 +233,7 @@ export const bioDrivers = {
 export const plcDrivers = {
     vasilescu: {
         name: "Vasilescu", numberPlate: "39SOM", streets: {
-            luni:["calea poplacii","preot baca","islazului","cisnadioara","colinei","brazilor","timotei cipariu","prejbei","badea cartan","aciliu",
+            luni:["calea poplacii","preot bacca","islazului","cisnadioara","colinei","brazilor","timotei cipariu","prejbei","badea cartan","aciliu",
                 "cindrelului","theodor mihaly","iazului","rozdesti","piata sadu","bobalna","ion sion","sacel","i p reteganu","ion pop reteganu",
                 "narciselor","infratirii","campului"],
             marti:["d cantemir","dimitrie cantemir","ioan moga","talmacel","tilisca","fundatura brazilor","paun pincio","eremia grigorescu",

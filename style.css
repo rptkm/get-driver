@@ -10,6 +10,8 @@ body {
     transition: all 0.3s ease;
     background: rgba(26, 26, 26, 0.95);
     color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
 }
 
 body.dark {
@@ -87,7 +89,8 @@ button:hover {
 
 /* Cards */
 .cards {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2rem;
     padding: 4rem 2rem;
@@ -141,8 +144,8 @@ body.dark .card {
 }
 
 #gMaps {
-    width: 100%;
-    height: 100%;
+    width: 2rem;
+    max-height: 100%;
 }
 
 @media only screen and (min-width: 450px) {
