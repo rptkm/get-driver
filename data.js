@@ -50,7 +50,7 @@ export const rezDrivers = {
                 "dumitru dragomir rosca", "d d rosca", "aviatiei", "cimitirului", "trifoiului", "livezii", "cooperatorilor"],
             joi: ["e a bielz", "emanuel albert bielz", "s o iosif", "septimiu octavian iosif", "seceratoarelor", "orzului", "ovazului", "pomiculorilor", "semanatoarelor", "scurta",
                 "agriculorilor", "gazariei", "graului", "verzariei", "autogarii", "distributiei", "metalurgistilor", "lucernei", "alpinismului", "charles darwin", "soseaua alba iulia",
-                "ogorului", "nependorf", "calea turnisorului", "i agarbiceanu", "ion agarbiceanu", "frigoriferului", "frunzei", "aleea pajistei", "ioana cantacuzino", "pontonului",
+                "ogorului", "neppendorf", "calea turnisorului", "i agarbiceanu", "ion agarbiceanu", "frigoriferului", "frunzei", "aleea pajistei", "ioana cantacuzino", "pontonului",
                 "traian vuia", "aviatiei"],
             vineri: ["s celibidache", "sergiu celibidache", "luncii", "cedonia", "oletului", "frasinului", "tschaikovsky", "anul 1848", "podului", "muncitorilor",
                 "vasile parvan", "nita octavian", "tineretului", "ciresului", "salcamilor", "gorunului", "vaii", "stejarului", "malinului", "bradului", "viilor", "macesului", "drum nou",
@@ -224,7 +224,7 @@ export const bioDrivers = {
         name: "Bunea", numberPlate: "37SOM", streets: {
             joi:["e a bieltz","emanuel albert bieltz","s o iosif","septimiu octavian iosif","seceratoarelor","orzului","ovazului",
                 "pomicultorilor","semanatoarelor","scurta","agricultorilor","gazariei","graului","verzariei","autogarii","distributiei",
-                "metalurgistilor","lucernei","alpinismului","charles darwin","alba iulia","ogorului","nependorf","calea turnisorului",
+                "metalurgistilor","lucernei","alpinismului","charles darwin","alba iulia","ogorului","neppendorf","calea turnisorului",
                 "i agarbiceanu","ion agarbiceanu","frigoriferului","frunzei","aleea pajistei","ioana cantacuzino","pontonului","traian vuia","aviatiei"]
         }
     }
@@ -310,7 +310,7 @@ export const plcDrivers = {
                 "seceratoarelor","orzului","ovazului","pomicultorilor","semanatoarelor","scurta",
                 "agricultorilor","gazariei","graului","verzariei","autogarii","distributiei",
                 "metalurgistilor","lucernei","alpinismului","charles darwin","sos alba iulia",
-                "ogorului","nependorf","calea turnisorului","i agarbiceanu","ion agarbiceanu",
+                "ogorului","neppendorf","calea turnisorului","i agarbiceanu","ion agarbiceanu",
                 "frigoriferului","frunzei","aleea pajistei","ioana cantacuzino","pontonului","traian vuia","aviatiei"],
             vineri:["dreptatii","lemnelor","lanii","16 februarie","turismului","o ghibu","onisifor ghibu",
                 "ion neculce","malului","fuiorului","darstelor","gradinarilor","lalelelor","garoafei",

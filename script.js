@@ -3,6 +3,8 @@ import { rezDrivers, bioDrivers, plcDrivers } from "./data.js";
 let bioCard = document.getElementById("bio-card")
 let rezCard = document.getElementById("rez-card")
 let plcCard = document.getElementById("plc-card")
+let mapsButton = document.getElementById("maps-card")
+
 
 let button = document.getElementById("findDriverBtn")
 button.addEventListener("click", () => {
@@ -72,6 +74,36 @@ button.addEventListener("click", () => {
         driver: foundPlcDriver,
         day: foundDay  // Returns "marti", "miercuri", etc.
     });
+});
+
+mapsButton.addEventListener("click", () => {
+
+    const mapAddress = document.getElementById("streetInput").value.toLowerCase();
+
+    console.log("test");
+    const destination = `Strada ${mapAddress}, Sibiu`; // e.g., "Sibiu, Romania" or coordinates
+    const encodedDest = encodeURIComponent(destination);
+
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    let url;
+    if (isMobile) {
+        // Prefer app on mobile - replace with your actual destination (e.g., ?q=address or ?daddr=destination)
+
+
+        if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+            // iOS: Try Google Maps app first, fallback to web
+            url = `https://maps.google.com/maps?q=${encodedDest}`;
+        } else {
+            // Android: Use intent for better app preference
+            url = `intent://maps.google.com/maps?q=${encodedDest}#Intent;scheme=https;package=com.google.android.apps.maps;end`;
+        }
+    } else {
+        // Desktop: Standard web link
+        url = `https://maps.google.com/maps?q=${encodedDest}`;
+    }
+
+    window.open(url, '_blank', 'noopener,noreferrer'); // Opens in new tab safely
 });
 
 // Theme toggle
