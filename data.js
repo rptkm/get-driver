@@ -108,6 +108,11 @@ export const rezDrivers = {
                 "samuel brukenthal", "pta huet", "piata huet", "andrei saguna", "ioan lupas", "baritiu", "george baritiu",
                 "pta unirii", "piata unirii", "mitropoliei", "tribunei", "a d xenopol", "xenopol", "avram iancu", "telefoanelor"]
         }
+    },
+    alexa: {
+        name: "Alexa", numberPlate: "63SOM", streets: {
+            marti: ["dragos voda", "bungardului", "zamfirescu", "james watt", "locomotivei"]
+        }
     }
 }
 
